@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Milestone Test HTML</title>
+  <meta name="description" content="Large-ish HTML for SWE262 Milestone 2 tasks" />
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .note { color: #444; }
+    .highlight { background: #fffae6; }
+  </style>
+</head>
+<body id="body-root">
+
+  <header id="site-header">
+    <h1 id="title">SWE262 Milestone Test</h1>
+    <nav id="top-nav">
+      <ul id="nav-list">
+        <li><a id="a-home" href="index.html">Home</a></li>
+        <li><a id="a-about" href="about.html">About</a></li>
+        <li><a id="a-contact" href="contact.html">Contact</a></li>
+        <li><a id="a-help" href="#help">Help (anchor)</a></li>
+        <li><a id="a-ext1" href="https://example.com/one">External One</a></li>
+        <li><a id="a-ext2" href="https://example.com/two">External Two</a></li>
+        <li><a id="a-ext3" href="https://example.com/three">External Three</a></li>
+        <li><a id="a-ext4" href="https://example.com/four">External Four</a></li>
+        <li><a id="a-ext5" href="https://example.com/five">External Five</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section id="intro">
+      <h2>Intro</h2>
+      <p id="p1" class="note">This is a <b>bold</b> intro line with a link to <a id="a-intro-doc" href="docs/intro.html">Intro Doc</a>.</p>
+      <p id="p2">Another paragraph with <b>important</b> text and <a id="a-ref1" href="refs/ref1.html">Reference 1</a>.</p>
+      <p id="p3" class="highlight"><b>Highlighted</b> paragraph with <a id="a-ref2" href="refs/ref2.html">Reference 2</a>.</p>
+    </section>
+
+    <section id="grid">
+      <h2>Cards Grid</h2>
+
+      <div id="card1" class="card">
+        <h3 id="card1-title">Card 1</h3>
+        <p id="card1-desc">Some <b>bold</b> content. <a id="card1-link" href="cards/1.html">Details</a></p>
+      </div>
+
+      <div id="card2" class="card">
+        <h3 id="card2-title">Card 2</h3>
+        <p id="card2-desc">Some <b>bold</b> content. <a id="card2-link" href="cards/2.html">Details</a></p>
+      </div>
+
+      <div id="card3" class="card">
+        <h3 id="card3-title">Card 3</h3>
+        <p id="card3-desc">Some <b>bold</b> content. <a id="card3-link" href="cards/3.html">Details</a></p>
+      </div>
+
+      <div id="card4" class="card">
+        <h3 id="card4-title">Card 4</h3>
+        <p id="card4-desc">Some <b>bold</b> content. <a id="card4-link" href="cards/4.html">Details</a></p>
+      </div>
+
+      <div id="card5" class="card">
+        <h3 id="card5-title">Card 5</h3>
+        <p id="card5-desc">Some <b>bold</b> content. <a id="card5-link" href="cards/5.html">Details</a></p>
+      </div>
+
+      <div id="card6" class="card">
+        <h3 id="card6-title">Card 6</h3>
+        <p id="card6-desc">Some <b>bold</b> content. <a id="card6-link" href="cards/6.html">Details</a></p>
+      </div>
+
+      <div id="card7" class="card">
+        <h3 id="card7-title">Card 7</h3>
+        <p id="card7-desc">Some <b>bold</b> content. <a id="card7-link" href="cards/7.html">Details</a></p>
+      </div>
+
+      <div id="card8" class="card">
+        <h3 id="card8-title">Card 8</h3>
+        <p id="card8-desc">Some <b>bold</b> content. <a id="card8-link" href="cards/8.html">Details</a></p>
+      </div>
+
+      <div id="card9" class="card">
+        <h3 id="card9-title">Card 9</h3>
+        <p id="card9-desc">Some <b>bold</b> content. <a id="card9-link" href="cards/9.html">Details</a></p>
+      </div>
+
+      <div id="card10" class="card">
+        <h3 id="card10-title">Card 10</h3>
+        <p id="card10-desc">Some <b>bold</b> content. <a id="card10-link" href="cards/10.html">Details</a></p>
+      </div>
+    </section>
+
+    <section id="lists">
+      <h2>Lists</h2>
+      <ul id="ul1" class="note">
+        <li id="li1"><a id="a-li1" href="list/1.html">List Link 1</a></li>
+        <li id="li2"><a id="a-li2" href="list/2.html">List Link 2</a></li>
+        <li id="li3"><a id="a-li3" href="list/3.html">List Link 3</a></li>
+        <li id="li4"><a id="a-li4" href="list/4.html">List Link 4</a></li>
+        <li id="li5"><a id="a-li5" href="list/5.html">List Link 5</a></li>
+      </ul>
+
+      <ol id="ol1">
+        <li id="oli1">Step <b>One</b></li>
+        <li id="oli2">Step <b>Two</b></li>
+        <li id="oli3">Step <b>Three</b></li>
+      </ol>
+    </section>
+
+    <section id="table-section">
+      <h2>Table</h2>
+      <table id="tbl" border="1">
+        <thead id="thead">
+          <tr id="tr-head">
+            <th id="th1">ID</th>
+            <th id="th2">Name</th>
+            <th id="th3">Link</th>
+          </tr>
+        </thead>
+        <tbody id="tbody">
+          <tr id="row1">
+            <td id="cell1">1</td>
+            <td id="cell2"><b>Alice</b></td>
+            <td id="cell3"><a id="a-row1" href="users/1.html">Profile</a></td>
+          </tr>
+          <tr id="row2">
+            <td id="cell4">2</td>
+            <td id="cell5"><b>Bob</b></td>
+            <td id="cell6"><a id="a-row2" href="users/2.html">Profile</a></td>
+          </tr>
+          <tr id="row3">
+            <td id="cell7">3</td>
+            <td id="cell8"><b>Carol</b></td>
+            <td id="cell9"><a id="a-row3" href="users/3.html">Profile</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="anchors">
+      <h2>More Links</h2>
+      <p id="m1"><a id="a-m1" href="misc/alpha.html">Alpha</a></p>
+      <p id="m2"><a id="a-m2" href="misc/beta.html">Beta</a></p>
+      <p id="m3"><a id="a-m3" href="misc/gamma.html">Gamma</a></p>
+      <p id="m4"><a id="a-m4" href="misc/delta.html">Delta</a></p>
+      <p id="m5"><a id="a-m5" href="misc/epsilon.html">Epsilon</a></p>
+      <p id="m6"><a id="a-m6" href="misc/zeta.html">Zeta</a></p>
+      <p id="m7"><a id="a-m7" href="misc/eta.html">Eta</a></p>
+      <p id="m8"><a id="a-m8" href="misc/theta.html">Theta</a></p>
+      <p id="m9"><a id="a-m9" href="misc/iota.html">Iota</a></p>
+      <p id="m10"><a id="a-m10" href="misc/kappa.html">Kappa</a></p>
+    </section>
+
+    <section id="help">
+      <h2>Help</h2>
+      <article id="article1">
+        <h3 id="article1-title">FAQ</h3>
+        <p id="article1-p1">This is a <b>bold</b> FAQ entry. See <a id="a-faq1" href="faq/1.html">FAQ 1</a>.</p>
+        <p id="article1-p2">Another <b>bold</b> entry with <a id="a-faq2" href="faq/2.html">FAQ 2</a>.</p>
+      </article>
+      <article id="article2">
+        <h3 id="article2-title">Guides</h3>
+        <p id="article2-p1">Read the <a id="a-guides1" href="guides/start.html">Getting Started</a> guide.</p>
+        <p id="article2-p2">Check <b>advanced</b> topics and <a id="a-guides2" href="guides/advanced.html">Advanced Guide</a>.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <p id="copyright">
+      &copy; <b>2025</b> Milestone Test. All <b>rights</b> reserved. 
+      Visit our <a id="a-privacy" href="privacy.html">Privacy</a> and <a id="a-terms" href="terms.html">Terms</a>.
+    </p>
+  </footer>
+
+</body>
+</html>
