@@ -1143,6 +1143,16 @@ class BeautifulSoup(Tag):
         return prefix + super(BeautifulSoup, self).decode(
             indent_level, eventual_encoding, formatter, iterator
         )
+    # Milestone 4:::::
+
+    def __iter__(self) -> Iterator[PageElement]:
+        """Iterate over all nodes in the parse tree in document order.
+
+        This provides a streaming-style traversal: nodes are yielded one
+        by one using the existing ``Tag.descendants`` generator, without
+        materializing the entire tree into a list.
+        """
+        return self.descendants
 
 
 # Aliases to make it easier to get started quickly, e.g. 'from bs4 import _soup'
